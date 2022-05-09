@@ -17,8 +17,8 @@ export default class SignUpScreen extends React.Component {
  
   return (
     <View style={styles.container}>
-            <Text style={styles.upText}> JOIN </Text>
-        <Text style={styles.downText}> PLANT CARE </Text>
+            <Text style={styles.upText}> ÚNETE </Text>
+        <Text style={styles.downText}> CUIDEMOS LAS PLANTAS </Text>
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
@@ -31,7 +31,7 @@ export default class SignUpScreen extends React.Component {
        <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="First name"
+          placeholder="Nombre"
           placeholderTextColor="#003f5c"
           
         />
@@ -40,7 +40,7 @@ export default class SignUpScreen extends React.Component {
        <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Last name"
+          placeholder="Apellido"
           placeholderTextColor="#003f5c"
           
         />
@@ -58,7 +58,7 @@ export default class SignUpScreen extends React.Component {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Password."
+          placeholder="Contraseña"
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
         />
@@ -66,7 +66,7 @@ export default class SignUpScreen extends React.Component {
  
  
       <TouchableOpacity style={styles.loginBtn}>
-        <Text style={styles.loginText}>SIGN-UP</Text>
+        <Text style={styles.loginText}>REGÍSTRATE</Text>
       </TouchableOpacity>
     </View>
   );
