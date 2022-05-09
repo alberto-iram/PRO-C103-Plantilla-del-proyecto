@@ -22,7 +22,7 @@ export default class LogInScreen extends React.Component {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Email."
+          placeholder="Email"
           placeholderTextColor="#003f5c"
           
         />
@@ -31,18 +31,18 @@ export default class LogInScreen extends React.Component {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Password."
+          placeholder="Constraseña"
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
         />
       </View>
  
       <TouchableOpacity>
-        <Text style={styles.forgot_button}>Forgot Password?</Text>
+        <Text style={styles.forgot_button}>¿Olvidaste tu contraseña?</Text>
       </TouchableOpacity>
  
       <TouchableOpacity style={styles.loginBtn}>
-        <Text style={styles.loginText}>LOGIN</Text>
+        <Text style={styles.loginText}>INICIAR SESIÓN</Text>
       </TouchableOpacity>
     </View>
   );
