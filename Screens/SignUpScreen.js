@@ -49,7 +49,7 @@ export default class SignUpScreen extends React.Component {
        <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="DOB"
+          placeholder="Fecha de nacimiento"
           placeholderTextColor="#003f5c"
           
         />
